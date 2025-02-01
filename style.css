@@ -8,6 +8,9 @@
 }
 body {
     background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 .main {
     background-color: hsl(0, 0%, 12%);
