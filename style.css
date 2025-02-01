@@ -11,7 +11,7 @@ body {
 }
 .main {
     background-color: hsl(0, 0%, 12%);
-    width: 25%;
+    width: 375px;
     margin: 40px auto;
     padding: 30px;
     border-radius: 10px;
@@ -58,14 +58,9 @@ p {
     color: hsl(0, 0%, 12%);
     cursor: pointer;
 }
-@media screen and (max-width: 992px) {
+@media (max-width: 375px) {
     .main {
-        width: 40%;
-    }
-}
-@media screen and (max-width: 600px) {
-    .main {
-        width: 65%;
-        padding: 25px;
+        width: 325px;
+        padding: 20px;
     }
 }
